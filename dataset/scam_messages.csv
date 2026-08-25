@@ -1,0 +1,365 @@
+message,label
+"Your bank account will be blocked today. Pay immediately to keep it active.",scam
+"Congratulations! You have won ₹50000. Pay ₹999 processing fee to claim your prize.",scam
+"Your electricity connection will be disconnected today unless you pay ₹2499 immediately.",scam
+"Your KYC has expired. Click the link and complete verification immediately.",scam
+"Urgent! Your account has suspicious activity. Send ₹5000 to secure your account.",scam
+"Your refund is waiting. Pay a small verification fee to receive it.",scam
+"Your parcel is held at customs. Pay ₹799 immediately to release it.",scam
+"Congratulations, you are selected for a cash reward. Pay the registration fee now.",scam
+"Your UPI account will be suspended. Verify your details immediately.",scam
+"Send money now to avoid legal action against your account.",scam
+"Your bank account has been selected for a special reward. Pay ₹499 to receive it.",scam
+"Your SIM card will be blocked today. Complete KYC immediately using this link.",scam
+"Police have issued a notice against you. Pay the fine immediately to avoid arrest.",scam
+"Your loan has been approved. Pay the processing fee immediately.",scam
+"Your investment has generated ₹100000 profit. Pay tax to withdraw your money.",scam
+"Your UPI PIN needs to be updated immediately or your account will be suspended.",scam
+"Your parcel delivery failed. Pay ₹50 to reschedule delivery.",scam
+"Your insurance refund is ready. Send ₹1000 for verification.",scam
+"Congratulations! You are eligible for a free gift. Pay delivery charges now.",scam
+"Your credit card will be cancelled unless you verify your account immediately.",scam
+"Your electricity bill of ₹850 is due on September 5.",legitimate
+"Your payment of ₹500 was successful.",legitimate
+"Your monthly subscription payment of ₹299 is scheduled for tomorrow.",legitimate
+"Your bank statement for August is now available.",legitimate
+"Your order has been shipped and will arrive tomorrow.",legitimate
+"Your electricity bill payment of ₹1200 has been received.",legitimate
+"Your account login was successful.",legitimate
+"Your recharge of ₹299 was completed successfully.",legitimate
+"Your payment of ₹1500 to ABC Store was successful.",legitimate
+"Your monthly bill is ready. Please pay before the due date.",legitimate
+"Your transaction of ₹750 was completed successfully.",legitimate
+"Your order has been delivered successfully.",legitimate
+"Your salary has been credited to your account.",legitimate
+"Your credit card payment of ₹2000 has been received.",legitimate
+"Your electricity bill is available in your account.",legitimate
+"Your subscription has been renewed successfully.",legitimate
+"Your bank statement is ready to view.",legitimate
+"Your recharge of ₹199 was successful.",legitimate
+"Your payment to ABC Store was completed successfully.",legitimate
+"Your order is out for delivery.",legitimate
+"Good morning, I'll reach college by 9 AM.","legitimate"
+"Can you send me the notes from today's class?","legitimate"
+"The meeting is scheduled for 3 PM today.","legitimate"
+"Your Amazon order has been shipped and will arrive tomorrow.","legitimate"
+"Your salary has been credited to your bank account.","legitimate"
+"Please bring your project file to college tomorrow.","legitimate"
+"Your interview has been scheduled for Monday at 10 AM.","legitimate"
+"Congratulations on completing your interview successfully.","legitimate"
+"Your train ticket has been confirmed for tomorrow.","legitimate"
+"Your electricity bill for this month is Rs 850.","legitimate"
+"Your mobile recharge of Rs 299 was successful.","legitimate"
+"Your order has been delivered successfully.","legitimate"
+"Please attend the department meeting at 2 PM.","legitimate"
+"Your college examination starts from Monday.","legitimate"
+"Don't forget to submit your assignment before Friday.","legitimate"
+"Your appointment is confirmed for tomorrow morning.","legitimate"
+"Your payment of Rs 500 was successful.","legitimate"
+"Your bank statement is available in your mobile banking app.","legitimate"
+"Your credit card payment has been received.","legitimate"
+"Your flight booking has been confirmed.","legitimate"
+"Your hotel reservation is confirmed for Saturday.","legitimate"
+"Your library book is due next week.","legitimate"
+"Your parcel has reached the local delivery center.","legitimate"
+"Your scholarship application has been received.","legitimate"
+"Your college bus will arrive at the usual time tomorrow.","legitimate"
+"Please call me when you reach home.","legitimate"
+"Happy birthday! Have a wonderful day.","legitimate"
+"Are you coming to the college festival tomorrow?","legitimate"
+"Let's meet near the library after class.","legitimate"
+"The project presentation has been moved to Thursday.","legitimate"
+"Your attendance percentage has been updated.","legitimate"
+"The practical examination will begin at 10 AM.","legitimate"
+"Please check the timetable shared by the department.","legitimate"
+"Your internship interview will be conducted online.","legitimate"
+"Your job application has been received successfully.","legitimate"
+"Thank you for registering for the workshop.","legitimate"
+"Your workshop registration is confirmed.","legitimate"
+"Your bus ticket has been booked successfully.","legitimate"
+"Your order has been packed and will be shipped soon.","legitimate"
+"Your refund has been processed successfully.","legitimate"
+"Your payment was declined. Please try again through the official app.","legitimate"
+"Your monthly subscription has been renewed.","legitimate"
+"Your internet plan has been renewed successfully.","legitimate"
+"Please bring your ID card for the examination.","legitimate"
+"The college will remain closed tomorrow due to a holiday.","legitimate"
+"Your course registration has been completed.","legitimate"
+"Your application status has been updated.","legitimate"
+"Your appointment with the service center is confirmed.","legitimate"
+"Your bank branch appointment has been scheduled.","legitimate"
+"Please check your official college email for the timetable.","legitimate"
+"Urgent! Your bank account will be blocked today unless you verify your KYC.","scam"
+"Congratulations! You have won Rs 1,00,000. Pay Rs 999 to claim your prize.","scam"
+"Your KYC has expired. Click the link immediately to keep your account active.","scam"
+"Your electricity connection will be disconnected today. Pay immediately through this link.","scam"
+"You have been selected for a work from home job. Pay Rs 2,000 registration fee.","scam"
+"Send us your OTP to receive your cashback reward.","scam"
+"Your bank account has suspicious activity. Share your OTP to secure it.","scam"
+"You won a lottery! Pay a processing fee to receive your prize.","scam"
+"Your ATM card will be blocked. Confirm your PIN immediately.","scam"
+"Your UPI account has been suspended. Click this link to reactivate it.","scam"
+"Pay Rs 500 now to unlock your online shopping refund.","scam"
+"Your parcel is waiting. Pay the delivery charge using this link.","scam"
+"Congratulations! Your mobile number has won a cash reward. Pay the verification fee.","scam"
+"Your PAN card needs urgent verification. Send your personal details now.","scam"
+"Your bank account will be closed unless you complete verification today.","scam"
+"You have received an investment opportunity with guaranteed returns. Pay the joining amount now.","scam"
+"Earn Rs 10,000 per day from home. Pay a registration fee to start.","scam"
+"Your credit card has been selected for a special cash reward. Share your OTP.","scam"
+"Your SIM card will be deactivated today. Verify your identity using this link.","scam"
+"Your insurance policy has won a bonus. Pay the processing fee to receive it.","scam"
+"Your courier contains an important package. Pay the customs fee immediately.","scam"
+"Your account has been selected for a cashback offer. Send your card details to claim it.","scam"
+"Urgent payment required to prevent your electricity service from being disconnected.","scam"
+"You have been shortlisted for a high-paying job. Pay Rs 3,000 for document verification.","scam"
+"Your online banking access will expire today. Confirm your password using this link.","scam"
+"Congratulations! You have been chosen for a government cash benefit. Pay the verification fee.","scam"
+"Your refund is pending. Provide your bank account details and OTP to receive it.","scam"
+"Your mobile recharge failed. Click this link and enter your card details for a refund.","scam"
+"Your account has won a special reward. Pay Rs 499 to activate the reward.","scam"
+"Your debit card will be disabled unless you verify your details immediately.","scam"
+"You have received a job offer. Pay the security deposit before joining.","scam"
+"Your parcel could not be delivered. Pay Rs 50 through this link to reschedule delivery.","scam"
+"Your bank is offering a guaranteed investment return. Transfer money to activate the plan.","scam"
+"Your KYC verification requires your ATM PIN and OTP. Send them now.","scam"
+"Your lottery prize is ready. Pay the tax through this link to receive the money.","scam"
+"Your account will be frozen within one hour. Click the verification link immediately.","scam"
+"You have been selected for a prize draw. Share your bank details to receive the reward.","scam"
+"Your electricity bill has an overdue amount. Pay through this unknown link immediately.","scam"
+"Your credit card reward points are expiring. Click this link and enter your card details.","scam"
+"Your online shopping refund requires OTP verification. Send the OTP now.","scam"
+"Your bank representative needs your PIN to complete the KYC process.","scam"
+"Pay Rs 1,000 to unlock your blocked UPI account.","scam"
+"Your insurance refund is ready. Pay a small processing fee to receive it.","scam"
+"Your job application has been selected. Pay the registration charge to continue.","scam"
+"Your phone number has won a cash prize. Send your bank details to claim it.","scam"
+"Urgent! Confirm your banking password within 30 minutes or your account will be closed.","scam"
+"Your parcel is held at customs. Pay the release fee immediately using this link.","scam"
+"Your cashback has been approved. Share your OTP to receive the money.","scam"
+"Your account security requires immediate verification through the attached link.","scam"
+"Your bank account shows an unauthorized transaction of Rs 18,500. Call this number immediately to cancel it.","scam"
+"Your UPI payment of Rs 12,000 has been flagged. Share the OTP to reverse the transaction.","scam"
+"Your debit card was used for a purchase. Confirm your card number and CVV to stop the transaction.","scam"
+"An online transaction was made from your account. Send your banking details to verify the transaction.","scam"
+"Your credit card has an unpaid transaction. Transfer Rs 100 to verify your account.","scam"
+"Your UPI account has been compromised. Install this application to secure your account.","scam"
+"Your bank account has received an unexpected payment. Send the money back to this number immediately.","scam"
+"Your account is under investigation. Provide your Aadhaar number and OTP for verification.","scam"
+"Someone attempted to access your internet banking. Click the link to secure your account.","scam"
+"Your debit card has been temporarily blocked. Confirm your PIN through this link.","scam"
+"Your UPI refund is waiting. Enter your UPI PIN to receive the refund.","scam"
+"Your bank transfer failed. Enter your card details to receive the amount back.","scam"
+"Your account has been selected for a special banking offer. Pay Rs 500 to activate it.","scam"
+"Your payment was accidentally duplicated. Send your bank details so we can process the refund.","scam"
+"Your ATM transaction could not be completed. Verify your ATM PIN using the attached link.","scam"
+"Your bank account has unusual activity. Provide your OTP to prevent account suspension.","scam"
+"Your mobile banking service will be disabled unless you verify your identity immediately.","scam"
+"Your credit card has been used for an international transaction. Share the OTP to cancel it.","scam"
+"Your UPI ID has been selected for a cashback. Pay Rs 10 to activate the cashback.","scam"
+"Your bank account verification failed. Send your login details to complete verification.","scam"
+"Your payment account has been locked due to suspicious activity. Click here to unlock it.","scam"
+"Your account has received a suspicious transfer. Confirm your password to investigate the transaction.","scam"
+"Your card security has expired. Enter your card number and CVV to renew it.","scam"
+"Your bank is processing a refund. Provide your OTP to complete the refund.","scam"
+"Your UPI account will be closed unless you verify your details within 30 minutes.","scam"
+"Your account has been charged Rs 25,000. Click the link to dispute the transaction.","scam"
+"Your debit card transaction is pending. Share your PIN to cancel the payment.","scam"
+"Your bank account has been selected for a loan. Pay the processing fee to receive the amount.","scam"
+"Your online banking password has expired. Enter your current password and OTP to create a new one.","scam"
+"Your card has been blocked because of a suspicious purchase. Send your CVV to unblock it.","scam"
+"Your payment gateway account has been suspended. Verify your bank details to restore access.","scam"
+"Your UPI payment is stuck. Enter your UPI PIN to complete the refund.","scam"
+"Your bank account needs immediate verification because of a failed transaction.","scam"
+"Your card has been selected for a cash withdrawal offer. Pay a verification charge to activate it.","scam"
+"Your bank has detected a fraudulent transaction. Share your OTP to stop the transfer.","scam"
+"Your digital wallet has been compromised. Transfer your balance to this secure account.","scam"
+"Your account has received a suspicious login attempt. Send your password to confirm your identity.","scam"
+"Your payment was reversed incorrectly. Send the amount to this account to correct the transaction.","scam"
+"Your bank account is eligible for a Rs 2 lakh loan. Pay the verification fee to receive approval.","scam"
+"Your credit card payment is overdue. Click the link and enter your card details to avoid penalties.","scam"
+"Your UPI account has an unauthorized request. Approve the request to cancel it.","scam"
+"Your bank account will be permanently frozen because of a suspicious transaction. Verify immediately.","scam"
+"Your ATM card is eligible for an upgrade. Provide your card details and OTP to continue.","scam"
+"Your transaction could not be verified. Send your banking password to confirm the payment.","scam"
+"Your account has been credited with excess money. Transfer the amount back using this link.","scam"
+"Your mobile wallet refund is ready. Enter your PIN to receive the money.","scam"
+"Your bank has detected unusual activity and requires your full card information for verification.","scam"
+"Your payment account has been hacked. Install this security application immediately.","scam"
+"Your online transaction has failed. Click this link to receive your money back.","scam"
+"Your account security check is pending. Provide your OTP and password to complete the process.","scam"
+"Your bank account will be blocked today. Complete KYC immediately.","scam"
+"Pay Rs 999 to claim your lottery prize.","scam"
+"Send your OTP to receive cashback.","scam"
+"You have been selected for a job. Pay the registration fee.","scam"
+"Your UPI account has an unauthorized transaction.","scam"
+"Your Amazon order has been shipped.","legitimate"
+"Your college examination starts Monday.","legitimate"
+"Your class will begin at 9 AM tomorrow.","legitimate"
+"Please send me the assignment when you get time.","legitimate"
+"The college bus will leave at 7 AM tomorrow.","legitimate"
+"Your interview is scheduled for Wednesday at 11 AM.","legitimate"
+"Your application has been successfully submitted.","legitimate"
+"Your order has been dispatched and is expected to arrive Friday.","legitimate"
+"Your payment of Rs 750 was successfully completed.","legitimate"
+"Your monthly electricity bill is now available.","legitimate"
+"Your mobile recharge was completed successfully.","legitimate"
+"Your train reservation has been confirmed.","legitimate"
+"Please attend the project review meeting tomorrow.","legitimate"
+"Your internship application is under review.","legitimate"
+"Your examination hall ticket is available on the college portal.","legitimate"
+"Your attendance report has been updated.","legitimate"
+"Your appointment has been confirmed for 4 PM.","legitimate"
+"Your parcel has reached the delivery center.","legitimate"
+"Your refund has been credited to your account.","legitimate"
+"Your subscription has been renewed successfully.","legitimate"
+"Your flight booking has been confirmed.","legitimate"
+"Your hotel reservation has been confirmed.","legitimate"
+"Please bring your college ID card tomorrow.","legitimate"
+"The department has scheduled a seminar for Friday.","legitimate"
+"Your course registration was completed successfully.","legitimate"
+"Your bank statement is available through the official banking application.","legitimate"
+"Your credit card payment of Rs 3,500 was successful.","legitimate"
+"Your online order has been packed and will be shipped soon.","legitimate"
+"Your bus ticket has been booked successfully.","legitimate"
+"Please check the official college portal for examination updates.","legitimate"
+"Your scholarship application has been received.","legitimate"
+"The project submission deadline is next Monday.","legitimate"
+"Your appointment with the service center is confirmed.","legitimate"
+"Your salary was credited successfully this month.","legitimate"
+"Your insurance premium payment was successful.","legitimate"
+"Your internet plan has been renewed.","legitimate"
+"Your electricity bill payment was successful.","legitimate"
+"Your mobile bill has been generated for this month.","legitimate"
+"Your library book is due on Friday.","legitimate"
+"The college will conduct a placement training session tomorrow.","legitimate"
+"Your job application has been received by the company.","legitimate"
+"Your interview feedback will be shared through email.","legitimate"
+"Your workshop registration is complete.","legitimate"
+"Your certificate is ready for collection from the office.","legitimate"
+"Your order has been delivered successfully.","legitimate"
+"Your payment receipt is available in the official application.","legitimate"
+"Your bank branch appointment has been scheduled.","legitimate"
+"Your account statement for July is now available.","legitimate"
+"Your electricity connection remains active and your bill is due next week.","legitimate"
+"Your college timetable has been updated.","legitimate"
+"Your examination results are available on the official website.","legitimate"
+"Your internship interview link has been sent to your registered email.","legitimate"
+"Your UPI payment of Rs 450 was successful.","legitimate"
+"Urgent! Your bank account will be closed today unless you verify your KYC through this link.","scam"
+"Congratulations! You have won Rs 2,00,000. Pay Rs 1,500 to release the prize.","scam"
+"Your UPI account has been suspended. Send your OTP to reactivate it.","scam"
+"Your ATM card will be blocked unless you confirm your PIN immediately.","scam"
+"You have been selected for a high-paying job. Pay Rs 3,000 as a registration fee.","scam"
+"Your electricity connection will be disconnected within one hour. Pay immediately using this link.","scam"
+"Your parcel is stuck at customs. Pay the release fee through this link.","scam"
+"Your cashback has been approved. Send your OTP to receive the money.","scam"
+"Your bank account has suspicious activity. Click this link to secure your account.","scam"
+"You have won a lottery prize. Pay the processing fee to claim your money.","scam"
+"Your mobile number has won a cash reward. Send your bank details to receive it.","scam"
+"Your credit card has been selected for a special reward. Provide your CVV to activate it.","scam"
+"Your KYC verification failed. Send your Aadhaar number and OTP immediately.","scam"
+"Your online banking password has expired. Click this link to renew it.","scam"
+"Your account has an unauthorized transaction of Rs 35,000. Share your OTP to cancel it.","scam"
+"Your debit card has been blocked because of suspicious activity. Verify it using this link.","scam"
+"Pay Rs 500 to unlock your blocked UPI account.","scam"
+"Your refund is waiting. Enter your card number, CVV and OTP to receive it.","scam"
+"Your insurance policy has a bonus waiting. Pay the verification charge to receive it.","scam"
+"You have been selected for a government cash benefit. Pay the verification fee immediately.","scam"
+"Your SIM card will be deactivated today unless you complete verification.","scam"
+"Your bank account will be frozen within 30 minutes. Verify your details now.","scam"
+"Your shopping refund failed. Click this link and enter your banking information.","scam"
+"Your ATM transaction failed. Send your PIN to receive a refund.","scam"
+"Your account has been credited with extra money. Transfer it back to this account immediately.","scam"
+"Your UPI refund requires your UPI PIN. Send it now to complete the transaction.","scam"
+"You have been shortlisted for a job with a salary of Rs 80,000. Pay the security deposit to continue.","scam"
+"Your online wallet has been hacked. Transfer your balance to this secure account.","scam"
+"Your bank has detected fraud. Install this security application immediately.","scam"
+"Your credit card payment is overdue. Enter your card details through this link to avoid a penalty.","scam"
+"Your lottery reward expires today. Pay the tax immediately to receive your prize.","scam"
+"Your courier delivery failed. Pay Rs 50 through this link to reschedule it.","scam"
+"Your account requires urgent verification. Send your internet banking password to continue.","scam"
+"Your investment account has earned guaranteed returns. Pay the activation fee to withdraw your money.","scam"
+"Your mobile recharge refund is pending. Provide your OTP to receive it.","scam"
+"Your bank representative requires your ATM PIN for KYC verification.","scam"
+"Your card has been used for an international purchase. Share the OTP to cancel it.","scam"
+"Your account has been selected for a cashback offer. Pay Rs 10 to activate the reward.","scam"
+"Your electricity bill has an overdue amount. Pay through this unknown link immediately.","scam"
+"Your parcel contains an important document. Pay the customs charge immediately.","scam"
+"Your bank account needs immediate verification because of a suspicious login.","scam"
+"Your loan has been approved. Pay the processing fee to receive the money.","scam"
+"Your credit card reward points will expire today. Click the link to redeem them.","scam"
+"Your account has received a suspicious payment. Confirm your password to investigate it.","scam"
+"Your UPI ID has been selected for a special reward. Share your PIN to claim it.","scam"
+"Your job application has been selected. Pay the document verification fee now.","scam"
+"Your insurance refund is ready. Pay Rs 300 as a processing charge.","scam"
+"Your bank account is eligible for a special loan. Pay the approval fee immediately.","scam"
+"Your payment account has been locked. Click the link and enter your login details.","scam"
+"Your debit card upgrade requires your card number and OTP.","scam"
+"Your bank has detected an unauthorized transfer. Provide your password to stop it.","scam"
+"Your digital wallet refund is ready. Enter your wallet PIN to receive it.","scam"
+"Your account security check is incomplete. Send your OTP and password immediately.","scam"
+"Your parcel is held at customs because of an unpaid fee. Pay now to avoid cancellation.","scam"
+"Your bank account has been selected for a cash reward. Pay the activation charge.","scam"
+"Your UPI payment has failed. Click this link to receive your refund.","scam"
+"Your SIM verification has expired. Send your identity details to keep the number active.","scam"
+"Your credit card is eligible for a cash withdrawal offer. Pay the verification fee.","scam"
+"Your account will be permanently suspended unless you complete verification now.","scam"
+"Your online transaction has been flagged. Click the link to confirm your identity.","scam"
+"Your bank has detected a suspicious transaction. Send your OTP to block it.","scam"
+"Your job offer is confirmed. Pay the joining fee before receiving your appointment letter.","scam"
+"Your shopping account has earned a large cashback. Enter your card details to receive it.","scam"
+"Your payment has been reversed. Transfer the amount to this account to correct the transaction.","scam"
+"Your account has won a special festival reward. Pay the processing fee to claim it.","scam"
+"Your mobile number has been selected for a free gift. Pay the delivery charge to receive it.","scam"
+"Your bank account verification is pending. Click this link and enter your password.","scam"
+"Your courier has an unpaid delivery charge. Pay immediately through the provided link.","scam"
+"Your investment account is ready for withdrawal. Pay a small tax to release the funds.","scam"
+"Your UPI account has an unauthorized request. Approve the request to cancel the transaction.","scam"
+"Your bank account has been temporarily restricted. Share your card details for verification.","scam"
+"Your refund requires a verification payment of Rs 100. Pay now to receive the full amount.","scam"
+"Congratulations, you have been selected for the next round of the interview.","legitimate"
+"You have been selected for the position and the HR team will contact you shortly.","legitimate"
+"Your application has been shortlisted for the next interview round.","legitimate"
+"Congratulations on being selected for the internship program.","legitimate"
+"You have successfully cleared the first round of the interview.","legitimate"
+"You have been selected for the campus placement interview.","legitimate"
+"Your job application has been shortlisted by the company.","legitimate"
+"Congratulations, you have received an internship offer.","legitimate"
+"The company has selected you for the technical interview.","legitimate"
+"Your interview selection has been confirmed by the HR department.","legitimate"
+"You have been selected for the next round of the interview.",legitimate
+"Congratulations, you have been selected for the position.",legitimate
+"You got selected for the company Cognizant.",legitimate
+"Your interview has been successfully completed.",legitimate
+"We are pleased to inform you that you have been selected.",legitimate
+"Congratulations on your successful interview.",legitimate
+"You have been shortlisted for the software developer position.",legitimate
+"Your job application has been accepted.",legitimate
+"HR has confirmed your selection for the position.",legitimate
+"You have cleared the final interview round.",legitimate
+"Welcome to the company. Your joining date is Monday.",legitimate
+"Your offer letter is available in the company portal.",legitimate
+"Please attend the scheduled interview tomorrow.",legitimate
+"Your application for the software engineer role was successful.",legitimate
+"Congratulations on being selected for the internship.",legitimate
+"Your campus placement selection has been confirmed.",legitimate
+"You have successfully completed the recruitment process.",legitimate
+"Your joining formalities will begin next week.",legitimate
+"HR would like to discuss your joining process.",legitimate
+"Your appointment letter has been issued.",legitimate
+"You have been selected for a work from home job. Pay ₹2000 registration fee.",scam
+"Congratulations! You got a job. Pay ₹5000 to receive your offer letter.",scam
+"Your job has been confirmed. Send money for verification.",scam
+"You are selected for a high salary job. Pay the registration charge immediately.",scam
+"Work from home opportunity available. Pay ₹999 to activate your account.",scam
+"Congratulations! You have been selected. Send your bank details to receive salary.",scam
+"You got selected for a company. Pay ₹1500 for document verification.",scam
+"Your job offer is ready. Click this link and pay the processing fee.",scam
+"Earn ₹50000 per month from home. Pay ₹2000 joining fee.",scam
+"Your interview is successful. Pay the security deposit to confirm your job.",scam
+"Job vacancy confirmed. Send OTP to complete employee verification.",scam
+"You have been shortlisted. Pay ₹999 immediately to reserve your position.",scam
+"Congratulations! Your job is guaranteed after payment of the registration fee.",scam
+"HR has selected you. Send your UPI PIN to complete salary verification.",scam
+"You have received a job offer. Pay the refundable security amount today.",scam

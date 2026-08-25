@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI-ScamShield | AI Security Intelligence</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+
+<body>
+
+<div class="app">
+
+
+    <!-- =====================================
+         SIDEBAR
+    ====================================== -->
+
+    <aside class="sidebar">
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                🛡️
+            </div>
+
+            <div>
+
+                <h2>ScamShield</h2>
+
+                <span>AI SECURITY</span>
+
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <a class="nav-item active">
+
+                <span>⌂</span>
+
+                Dashboard
+
+            </a>
+
+
+            <a class="nav-item"
+               href="#scanner">
+
+                <span>⌕</span>
+
+                Scanner
+
+            </a>
+
+
+            <a class="nav-item"
+               href="#analytics">
+
+                <span>◈</span>
+
+                Analytics
+
+            </a>
+
+
+            <a class="nav-item"
+               href="#history">
+
+                <span>◷</span>
+
+                Scan History
+
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <div class="system-status">
+
+                <span class="status-dot"></span>
+
+                AI Engine Online
+
+            </div>
+
+            <small>
+                Model v1.0 • Flask API
+            </small>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =====================================
+         MAIN
+    ====================================== -->
+
+    <main class="main">
+
+
+        <!-- TOPBAR -->
+
+        <header class="topbar">
+
+            <div>
+
+                <p class="eyebrow">
+                    SECURITY INTELLIGENCE CENTER
+                </p>
+
+                <h1>
+                    Good evening 👋
+                </h1>
+
+                <p class="subtext">
+                    Analyze suspicious messages before they become a threat.
+                </p>
+
+            </div>
+
+
+            <div class="top-status">
+
+                <span class="pulse"></span>
+
+                Protection Active
+
+            </div>
+
+        </header>
+
+
+
+        <!-- =====================================
+             STAT CARDS
+        ====================================== -->
+
+        <section class="stats-grid">
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon blue">
+                    ◉
+                </div>
+
+                <div>
+
+                    <span>Total Scans</span>
+
+                    <strong id="totalScans">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="stat-card danger">
+
+                <div class="stat-icon red">
+                    !
+                </div>
+
+                <div>
+
+                    <span>Threats Detected</span>
+
+                    <strong id="scamCount">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="stat-card safe">
+
+                <div class="stat-icon green">
+                    ✓
+                </div>
+
+                <div>
+
+                    <span>Safe Messages</span>
+
+                    <strong id="legitimateCount">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="stat-card warning">
+
+                <div class="stat-icon yellow">
+                    ⚠
+                </div>
+
+                <div>
+
+                    <span>High Risk</span>
+
+                    <strong id="highRiskCount">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             SCANNER
+        ====================================== -->
+
+        <section class="scanner-panel"
+                 id="scanner">
+
+
+            <div class="panel-heading">
+
+                <div>
+
+                    <span class="section-label">
+                        AI MESSAGE ANALYZER
+                    </span>
+
+                    <h2>
+                        Is this message safe?
+                    </h2>
+
+                    <p>
+                        Paste an SMS, email, job offer, banking alert,
+                        or suspicious message below.
+                    </p>
+
+                </div>
+
+
+                <div class="ai-badge">
+
+                    <span></span>
+
+                    AI READY
+
+                </div>
+
+            </div>
+
+
+
+            <div class="scanner-body">
+
+                <textarea
+                    id="message"
+                    placeholder="Paste suspicious message here..."
+                ></textarea>
+
+
+                <div class="scanner-footer">
+
+                    <div class="character-count">
+
+                        <span id="charCount">
+                            0
+                        </span>
+
+                        characters
+
+                    </div>
+
+
+                    <div class="actions">
+
+                        <button
+                            class="clear-btn"
+                            onclick="clearMessage()">
+
+                            Clear
+
+                        </button>
+
+
+                        <button
+                            id="scanButton"
+                            class="scan-btn"
+                            onclick="scanMessage()">
+
+                            <span>⚡</span>
+
+                            Analyze Message
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div id="loading"
+                     class="loading">
+
+                    <div class="loader"></div>
+
+                    <span>
+                        AI is analyzing the message...
+                    </span>
+
+                </div>
+
+
+                <div id="result"
+                     class="result">
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             QUICK TESTS
+        ====================================== -->
+
+        <section class="quick-section">
+
+            <div class="section-title">
+
+                <div>
+
+                    <span class="section-label">
+                        QUICK TEST
+                    </span>
+
+                    <h2>
+                        Try an example
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="quick-grid">
+
+
+                <button
+                    class="quick-card threat"
+                    onclick="useExample('URGENT! Your bank account will be blocked today. Click this link to complete KYC.')">
+
+                    <span>🏦</span>
+
+                    <div>
+
+                        <strong>
+                            Banking Fraud
+                        </strong>
+
+                        <small>
+                            KYC / account alert
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+
+                <button
+                    class="quick-card threat"
+                    onclick="useExample('Congratulations! You won ₹1,00,000. Pay ₹999 to claim your prize.')">
+
+                    <span>🎁</span>
+
+                    <div>
+
+                        <strong>
+                            Prize Scam
+                        </strong>
+
+                        <small>
+                            Lottery / reward
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+
+                <button
+                    class="quick-card safe"
+                    onclick="useExample('Good morning, I will reach college by 9 AM.')">
+
+                    <span>🎓</span>
+
+                    <div>
+
+                        <strong>
+                            Normal Message
+                        </strong>
+
+                        <small>
+                            Everyday communication
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+
+                <button
+                    class="quick-card threat"
+                    onclick="useExample('Your OTP is required to receive your cashback. Send it immediately.')">
+
+                    <span>🔐</span>
+
+                    <div>
+
+                        <strong>
+                            OTP Fraud
+                        </strong>
+
+                        <small>
+                            Credential theft
+                        </small>
+
+                    </div>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             ANALYTICS
+        ====================================== -->
+
+        <section class="analytics-section"
+                 id="analytics">
+
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-label">
+                        SECURITY ANALYTICS
+                    </span>
+
+                    <h2>
+                        Threat Intelligence
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="charts-grid">
+
+
+                <div class="chart-panel">
+
+                    <div class="chart-header">
+
+                        <div>
+
+                            <h3>
+                                Threat Overview
+                            </h3>
+
+                            <span>
+                                Scam vs legitimate
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <canvas id="scanChart"></canvas>
+
+                </div>
+
+
+
+                <div class="chart-panel">
+
+                    <div class="chart-header">
+
+                        <div>
+
+                            <h3>
+                                Risk Distribution
+                            </h3>
+
+                            <span>
+                                Detected risk levels
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <canvas id="riskChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             HISTORY
+        ====================================== -->
+
+        <section class="history-panel"
+                 id="history">
+
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-label">
+                        ACTIVITY
+                    </span>
+
+                    <h2>
+                        Recent Scans
+                    </h2>
+
+                </div>
+
+
+                <button
+                    class="delete-history"
+                    onclick="clearHistory()">
+
+                    Clear history
+
+                </button>
+
+            </div>
+
+
+            <div id="historyList">
+
+                <div class="empty-history">
+
+                    <div>
+                        ◷
+                    </div>
+
+                    <p>
+                        No messages analyzed yet.
+                    </p>
+
+                    <small>
+                        Your recent scans will appear here.
+                    </small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <div>
+
+                <strong>
+                    🛡️ AI-ScamShield
+                </strong>
+
+                <span>
+                    AI-powered scam & fraud detection
+                </span>
+
+            </div>
+
+
+            <span>
+                Model Accuracy: 95.31%
+            </span>
+
+        </footer>
+
+
+    </main>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
